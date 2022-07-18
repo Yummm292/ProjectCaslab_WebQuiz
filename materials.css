@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: rgb(56, 55, 57);
+}
+
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    justify-content: center;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.container .title{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: wheat;
+    align-items: center;
+    left: 43%;
+    /* right: -540px; */
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    /* box-sizing: border-box; */
+    padding: 20px;
+    width: 200px;
+    
+}
+
+form .buttonmtr{
+    height: 45px;
+    margin: 35px 0;
+    margin: 10px;
+   
+  }
+
+  .mybutton{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 0.1rem solid black;
+    color: #56a5eb;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: rgb(80, 80,80);
+    margin: 10px;
+  }
+  .mybutton a{
+    color: azure;  
+  }
+  
+  form .buttonmtr input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    color: #56a5eb;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  form .buttonmtr :hover{
+   background: wheat;
+   cursor: pointer;
+  }
+  .buttonmtr2 {
+    margin-top: -10px;
+  }
+
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  } 
+}

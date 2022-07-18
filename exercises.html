@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="exer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+ <!-- /*<div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>*/ -->
+
+    <!-- informasi -->
+    <div class ="start_btn"><button>Start Quiz</button></div>
+
+    <div class="info_box">
+        <div class="info_tittle">
+            <span> The Rules! </span>
+        </div>
+        <div class="info_list">
+            <div class="info">1.  Guess the answer correctly</div>
+            <div class="info">2. You can't go back to your previous question</div>
+            <div class="info">3. You need to finish the question first</div>
+        </div>
+       <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+       </div>
+    </div>
+
+
+    <!-- quis -->
+    <div class="quiz_box">
+    <header>
+        <div class="tittle">Le Quiz </div>
+        <div class="timer">
+            <div class="time_text">Time Left</div>
+            <div class="time_sec">15</div>
+        </div>
+        <div class="time_line"></div>
+    </header>
+        <section>
+            <div class="que_text">
+               <!-- <span> need to work hard so ___ i can pass the exam.</span> -->
+            </div>
+            <div class="option_list">
+            <div class="option">
+                    <span>A. That </span>
+                <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+            <div class="option">
+                <span>B. So  </span>
+                <div class="icon cross"><i class="fas fa-times"></i></div>
+            </div>
+            <!-- <div class="option">
+                <span>C. But </span>
+            </div>
+            <div class="option">
+                <span>D. Since  </span>
+            </div> -->
+            </div>
+        </section>
+
+     <footer>
+         <div class="total_que">
+            <!-- <span><p>1</p>of<p>5</p>Question</span> -->
+        </div>
+        <button class="next_btn">Next</button>
+     </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Congratulations!</div>
+        <div class="score_text">
+            <span>And sorry, You got only<p>2</p>out of<p>5</p></span>
+        </div>
+        <div class="buttons">
+    
+            <button onclick="score()">Quit Quiz</button>    
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/questionwr.js"></script>
+    <script>
+        function score(){
+    location.href = "./process.php?id="+userScore;
+    }
+    </script>
+    
+</body>
+</html>
