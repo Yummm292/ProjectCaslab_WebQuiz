@@ -5,14 +5,6 @@ LeQuiz is An Simple Website English Quiz
 
 
 
-
-## Authors
-
-- [@Yummm292](https://www.github.com/Yummm292)
-- [@yoviimeow](https://github.com/yoviimeow)
-- [@raflikharisma](https://github.com/raflikharisma)
-
-
 ## Features
 
 - Materials
@@ -40,4 +32,11 @@ To Clonning Our Project
 
 
 ![App Screenshot](https://i.ibb.co/d7Mkwmf/Screenshot-2022-07-18-174635.png)
+
+
+## Authors
+
+- [@Yummm292](https://www.github.com/Yummm292)
+- [@yoviimeow](https://github.com/yoviimeow)
+- [@raflikharisma](https://github.com/raflikharisma)
 
