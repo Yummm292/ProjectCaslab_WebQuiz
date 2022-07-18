@@ -1,5 +1,5 @@
 
-# Our Project Title
+# LeQuiz
 
 LeQuiz is An Simple Website English Quiz
 
